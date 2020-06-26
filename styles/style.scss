@@ -1,0 +1,41 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url(back4.jpg);
+    background-repeat: repeat;
+    max-width: 1633px;
+}
+
+.jumbotron {
+    text-align: center;
+    margin-bottom: 0px !important;
+}
+
+.estiloNotas {
+    width: 200px;
+    height: auto;
+    float: left;
+    text-align: left;
+    background-color: khaki;
+    padding: 20px;
+    box-shadow: 5px 5px 5px #000000;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 20px;
+    justify-content: center;
+}
+
+table {
+    text-align: center;
+    margin-bottom: 0px !important;
+    bottom: 0px !important;
+}
+
+// Custom.scss
+// Opção A: Importa todo o Bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap";
